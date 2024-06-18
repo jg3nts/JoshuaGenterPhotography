@@ -3,16 +3,29 @@
 }
 .homepage {
   background-color: rgb(55, 81, 55);
+  background-position: center bottom;
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 }
 
 .header-container {
   display: flex;
   flex-direction: row;
+  margin: 0%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+body {
+  margin: 0;
 }
 .left-header {
   display: flex;
@@ -52,6 +65,7 @@
 }
 a:link {
   text-decoration: none;
+  text-decoration: black;
 }
 a:hover {
   text-decoration: underline;
