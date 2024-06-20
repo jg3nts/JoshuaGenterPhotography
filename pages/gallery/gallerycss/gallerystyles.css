@@ -46,10 +46,10 @@ body {
   font-weight: 400;
   color: black;
 }
-a:link {
+.header-container a:link {
   text-decoration: none;
 }
-a:hover {
+.header-container a:hover {
   text-decoration: underline;
 }
 .icons {
@@ -63,15 +63,8 @@ a:hover {
   font-size: 25px;
   font-weight: 800;
   margin: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 5px;
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 img {
@@ -80,39 +73,25 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-.grid-wrapper > div {
+.gallery {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.grid-wrapper > div > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .grid-wrapper {
   display: grid;
   margin-left: 200px;
   margin-right: 200px;
-  grid-gap: 25px;
+  grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 300px;
-  grid-auto-flow: dense;
-  cursor: pointer;
 }
-
-#lightbox {
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: none;
+.grid-wrapper img {
+  transition: 1s;
 }
-
-#lightbox.active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.grid-wrapper img:hover {
+  transform: scale(1.05);
 }

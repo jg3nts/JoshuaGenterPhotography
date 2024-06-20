@@ -4,7 +4,9 @@
     <meta charset="UTC-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joshua Genter Photography - Gallery</title>
-    <link rel="stylesheet" href="gallerystyles.css" />
+    <link rel="stylesheet" href="gallerycss/gallerystyles.css" />
+    <link rel="stylesheet" href="gallerycss/lightbox.min.css" />
+    <script src="galleryjs/lightbox-plus-jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/11344b4319.js"
       crossorigin="anonymous"
@@ -22,7 +24,10 @@
           ><h4 class="page-link">Home</h4></a
         >
         <h4 class="page-link">Gallery</h4>
-        <h4 class="page-link">Photojournals</h4>
+        <a
+          href="file:///C:/Users/joshu/Desktop/Joshua Genter Photography/pages/photojournals/photojournals.html"
+          ><h4 class="page-link">Photojournals</h4></a
+        >
         <h4 class="page-link">About</h4>
         <h4 class="icons">
           <a href="https://www.instagram.com/josh.genter/" style="color: black">
@@ -37,86 +42,247 @@
       </div>
     </div>
     <div class="title">Gallery</div>
-    <script defer src="galleryscript.js"></script>
-    <div class="grid-wrapper" class="flex-container">
+    <div class="grid-wrapper" class="gallery">
       <div class="image-conatiner">
-        <img src="./galleryimages/hokan-ji temple.jpeg" alt="hokan-ji temple" />
+        <a
+          href="galleryimages/hokan-ji temple.jpeg"
+          data-lightbox="mygallery"
+          data-title="Hokan-ji Temple | f/5  ISO-200  1/320sec"
+        >
+          <img
+            src="galleryimages/snippet_hokan-ji temple.jpeg"
+            alt="hokan-ji temple"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/sumo.jpeg" alt="sumo" />
+        <a
+          href="galleryimages/sumo.jpeg"
+          data-lightbox="mygallery"
+          data-title="Sumo | f/5.6  ISO-1600  1/160sec"
+        >
+          <img src="galleryimages/snippet_sumo.jpeg" alt="sumo"
+        /></a>
       </div>
       <div class="image-conatiner">
-        <img
-          src="./galleryimages/buckingham palace.jpg"
-          alt="buckingham palace"
-        />
+        <a
+          href="galleryimages/buckingham palace.jpg"
+          data-lightbox="mygallery"
+          data-title="Buckingham Palace"
+        >
+          <img
+            src="galleryimages/snippet_buckingham palace.jpg"
+            alt="buckingham palace"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/small falls.JPG" alt="small falls" />
+        <a
+          href="galleryimages/small falls.JPG"
+          data-lightbox="mygallery"
+          data-title="Small Falls | ISO-400"
+        >
+          <img src="galleryimages/snippet_small falls.JPG" alt="small falls" />
+        </a>
       </div>
 
       <div class="image-conatiner">
-        <img src="./galleryimages/band royal.jpg" alt="band royal" />
+        <a
+          href="galleryimages/band royal.jpg"
+          data-lightbox="mygallery"
+          data-title="Royal Band | f/5  ISO-200  1/400sec"
+        >
+          <img src="galleryimages/snippet_band royal.jpg" alt="band royal" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/dual tracks.jpg" alt="dual tracks" />
+        <a
+          href="galleryimages/dual tracks.jpg"
+          data-lightbox="mygallery"
+          data-title="Dual Tracks"
+        >
+          <img src="galleryimages/snippet_dual tracks.jpg" alt="dual tracks" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/gliding lake.jpg" alt="gliding lake" />
+        <a
+          href="galleryimages/Eastern Baffin.jpg"
+          data-lightbox="mygallery"
+          data-title="Eastern Baffin"
+        >
+          <img
+            src="galleryimages/snippet_Eastern Baffin.jpg"
+            alt="easter baffin"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/golden erosion.JPG" alt="golden erosion" />
+        <a
+          href="galleryimages/gliding lake.jpg"
+          data-lightbox="mygallery"
+          data-title="Gliding Lake | f/5.6  ISO-100  1/320sec"
+        >
+          <img
+            src="galleryimages/snippet_gliding lake.jpg"
+            alt="gliding lake"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/laying record.jpg" alt="laying record" />
+        <a
+          href="galleryimages/golden erosion.JPG"
+          data-lightbox="mygallery"
+          data-title="Golden Erosion | f/9  ISO-100  1/250sec"
+        >
+          <img
+            src="galleryimages/snippet_golden erosion.JPG"
+            alt="golden erosion"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/long sunset.JPG" alt="long sunset" />
+        <a
+          href="galleryimages/laying record.jpg"
+          data-lightbox="mygallery"
+          data-title="Laying Record | f/4  ISO-800 1/6sec"
+        >
+          <img
+            src="galleryimages/snippet_laying record.jpg"
+            alt="laying record"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/mackay.jpg" alt="mackay" />
+        <a
+          href="galleryimages/long sunset.JPG"
+          data-lightbox="mygallery"
+          data-title="Long Sunset | f/5  ISO-100  1/6sec"
+        >
+          <img src="galleryimages/snippet_long sunset.JPG" alt="long sunset" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/mira silhouette.jpeg" alt="mira silhouette" />
+        <a
+          href="galleryimages/mackay.jpg"
+          data-lightbox="mygallery"
+          data-title="Mackay"
+        >
+          <img src="galleryimages/snippet_mackay.jpg" alt="mackay" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/ochterloney.jpg" alt="ochterloney" />
+        <a
+          href="galleryimages/mira silhouette.jpeg"
+          data-lightbox="mygallery"
+          data-title="Mira Silhouette | ISO-200sec"
+        >
+          <img
+            src="galleryimages/snippet_mira silhouette.jpeg"
+            alt="mira silhouette"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img
-          src="./galleryimages/overhead transparency.jpeg"
-          alt="overhead transparency"
-        />
+        <a
+          href="galleryimages/ochterloney.jpg"
+          data-lightbox="mygallery"
+          data-title="Ochterloney | f/4  ISO-200  1/800sec"
+        >
+          <img src="galleryimages/snippet_ochterloney.jpg" alt="ochterloney" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/pilot whales.JPG " alt="pilot whales" />
+        <a
+          href="galleryimages/overhead transparency.jpeg"
+          data-lightbox="mygallery"
+          data-title="Overhead Transparency"
+        >
+          <img
+            src="galleryimages/snippet_overhead transparency.jpeg"
+            alt="overhead transparency"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/rainy ben.jpg " alt="rainy ben" />
+        <a
+          href="galleryimages/pilot whales.JPG"
+          data-lightbox="mygallery"
+          data-title="Pilot Whales | ISO-400"
+        >
+          <img
+            src="galleryimages/snippet_pilot whales.JPG "
+            alt="pilot whales"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/red maple.jpg " alt="red maple" />
+        <a
+          href="galleryimages/rainy ben.jpg"
+          data-lightbox="mygallery"
+          data-title="Rainy Ben | f/5  ISO-100  1/320sec"
+        >
+          <img src="galleryimages/snippet_rainy ben.jpg" alt="rainy ben" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/rockysand.JPG" alt="rocky sand" />
+        <a
+          href="galleryimages/red maple.jpg"
+          data-lightbox="mygallery"
+          data-title="Red Maple | f/4  ISO-1600  1/80sec"
+        >
+          <img src="galleryimages/snippet_red maple.jpg" alt="red maple" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/sea caves.JPG " alt="sea caves" />
+        <a
+          href="galleryimages/rockysand.JPG"
+          data-lightbox="mygallery"
+          data-title="Rocky Sand | ISO-200"
+        >
+          <img src="galleryimages/snippet_rockysand.JPG" alt="rocky sand" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img
-          src="./galleryimages/sidebyside booth.jpg "
-          alt="sidebyside booth"
-        />
+        <a
+          href="galleryimages/sea caves.JPG"
+          data-lightbox="mygallery"
+          data-title="Sea Caves | ISO-400"
+        >
+          <img src="galleryimages/snippet_sea caves.JPG" alt="sea caves" />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img
-          src="./galleryimages/stars through trees.jpeg"
-          alt="stars through trees"
-        />
+        <a
+          href="galleryimages/sidebyside booth.jpg"
+          data-lightbox="mygallery"
+          data-title="Side-by-Side Booth | f/5  ISO-200  1/640sec"
+        >
+          <img
+            src="galleryimages/snippet_sidebyside booth.jpg"
+            alt="sidebyside booth"
+          />
+        </a>
       </div>
       <div class="image-conatiner">
-        <img src="./galleryimages/wheatgrass.JPG" alt="wheatgrass" />
+        <a
+          href="galleryimages/stars through trees.jpeg"
+          data-lightbox="mygallery"
+          data-title="Stars Through Trees | f/1.8  ISO-200  13sec"
+        >
+          <img
+            src="galleryimages/snippet_stars through trees.jpeg"
+            alt="stars through trees"
+          />
+        </a>
+      </div>
+      <div class="image-conatiner">
+        <a
+          href="galleryimages/wheatgrass.JPG"
+          data-lightbox="mygallery"
+          data-title="Wheat Grass | f/4  ISO-100  1/160sec"
+        >
+          <img src="galleryimages/snippet_wheatgrass.JPG" alt="wheatgrass" />
+        </a>
       </div>
     </div>
   </body>
