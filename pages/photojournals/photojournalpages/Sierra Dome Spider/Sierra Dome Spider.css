@@ -56,17 +56,13 @@ body {
   margin-left: 20px;
   gap: 15px;
 }
-.title {
-  text-align: center;
-  justify-content: center;
-  color: #000000;
-  font-size: 25px;
-  font-weight: 800;
-  margin: 20px;
-  margin-bottom: 15px;
-  padding: 5px;
-}
+
 .info {
-  display: block;
   text-align: center;
+}
+img {
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 500px;
 }
